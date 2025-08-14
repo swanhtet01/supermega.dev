@@ -79,8 +79,9 @@
                 <div class="hidden md:flex space-x-8">
                     <a href="#agents" class="hover:text-yellow-400 transition">AI Agents</a>
                     <a href="#products" class="hover:text-yellow-400 transition">Products</a>
-                    <a href="#demo" class="hover:text-yellow-400 transition">Live Demo</a>
+                    <a href="contact.html" class="hover:text-yellow-400 transition">Contact</a>
                     <a href="#pricing" class="hover:text-yellow-400 transition">Pricing</a>
+                    <a href="https://swanhtet01.github.io" target="_blank" class="hover:text-yellow-400 transition">GitHub</a>
                 </div>
                 <button @click="openContactForm()" 
                         class="bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 px-6 py-2 rounded-full font-semibold transition-all transform hover:scale-105">
@@ -140,371 +141,56 @@
         </div>
     </section>
 
-    <!-- AI Agents Section -->
-    <section id="agents" class="py-20 bg-gray-900">
-        <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-6xl font-black text-center mb-4 lightning-text">AI AGENT LAB</h2>
-            <p class="text-2xl text-center mb-16 text-gray-300">Autonomous agents with REAL capabilities, not just chat</p>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Browser Automation Agent -->
-                <div class="glow-card rounded-xl p-8 group">
-                    <div class="text-6xl mb-6 feature-icon">🤖</div>
-                    <h3 class="text-2xl font-bold mb-4">Browser Automation Agent</h3>
-                    <p class="text-gray-300 mb-6">
-                        Fully autonomous web scraping, form filling, e-commerce monitoring, 
-                        price tracking, and website interactions. Handles CAPTCHAs, 
-                        manages sessions, and adapts to website changes.
-                    </p>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">⚡</span>
-                            Multi-tab parallel processing
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">⚡</span>
-                            CAPTCHA solving & proxy rotation
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">⚡</span>
-                            Real-time website monitoring
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">⚡</span>
-                            Dynamic element detection
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Global Market Intelligence Agent -->
-                <div class="glow-card rounded-xl p-8 group">
-                    <div class="text-6xl mb-6 feature-icon">🌍</div>
-                    <h3 class="text-2xl font-bold mb-4">Global Market Intelligence Agent</h3>
-                    <p class="text-gray-300 mb-6">
-                        Monitor social media trends, consumer behavior, and market sentiment 
-                        across 50+ countries. Real-time analysis of TikTok, Instagram, 
-                        Twitter, Reddit, and regional platforms.
-                    </p>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🌐</span>
-                            50+ country monitoring
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🌐</span>
-                            Multi-language sentiment analysis
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🌐</span>
-                            Trend prediction algorithms
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🌐</span>
-                            Cultural context understanding
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dropshipping Operations Agent -->
-                <div class="glow-card rounded-xl p-8 group">
-                    <div class="text-6xl mb-6 feature-icon">📦</div>
-                    <h3 class="text-2xl font-bold mb-4">Dropshipping Operations Agent</h3>
-                    <p class="text-gray-300 mb-6">
-                        End-to-end dropshipping automation. Product research, supplier 
-                        communication, order processing, customer service, and profit 
-                        optimization. Manages entire stores autonomously.
-                    </p>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">💰</span>
-                            Winning product discovery
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">💰</span>
-                            Automated supplier negotiations
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">💰</span>
-                            Order fulfillment automation
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">💰</span>
-                            Dynamic pricing optimization
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Lead Generation Warfare Agent -->
-                <div class="glow-card rounded-xl p-8 group">
-                    <div class="text-6xl mb-6 feature-icon">🎯</div>
-                    <h3 class="text-2xl font-bold mb-4">Lead Generation Warfare Agent</h3>
-                    <p class="text-gray-300 mb-6">
-                        Military-grade lead acquisition. Deep web scraping, social engineering, 
-                        pattern recognition, and multi-channel outreach campaigns. 
-                        Finds prospects others can't.
-                    </p>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🔍</span>
-                            Deep web intelligence gathering
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🔍</span>
-                            Social graph mapping
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🔍</span>
-                            Behavioral pattern analysis
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🔍</span>
-                            Multi-channel coordination
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Social Media Domination Agent -->
-                <div class="glow-card rounded-xl p-8 group">
-                    <div class="text-6xl mb-6 feature-icon">📱</div>
-                    <h3 class="text-2xl font-bold mb-4">Social Media Domination Agent</h3>
-                    <p class="text-gray-300 mb-6">
-                        Total social media control. Content creation, posting schedules, 
-                        engagement automation, influencer outreach, and viral content 
-                        optimization across all platforms simultaneously.
-                    </p>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">📈</span>
-                            All-platform management
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">📈</span>
-                            Viral content engineering
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">📈</span>
-                            Influencer relationship building
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">📈</span>
-                            Engagement optimization AI
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Competitive Intelligence Agent -->
-                <div class="glow-card rounded-xl p-8 group">
-                    <div class="text-6xl mb-6 feature-icon">🕵️</div>
-                    <h3 class="text-2xl font-bold mb-4">Competitive Intelligence Agent</h3>
-                    <p class="text-gray-300 mb-6">
-                        Corporate espionage-level competitor tracking. Pricing strategies, 
-                        marketing campaigns, product launches, team changes, and strategic 
-                        moves. Always stay 10 steps ahead.
-                    </p>
-                    <div class="space-y-2 text-sm">
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🔎</span>
-                            Real-time competitor monitoring
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🔎</span>
-                            Strategic move prediction
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🔎</span>
-                            Market positioning analysis
-                        </div>
-                        <div class="flex items-center">
-                            <span class="text-green-400 mr-2">🔎</span>
-                            Opportunity identification
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Products Section -->
-    <section id="products" class="py-20 bg-black">
-        <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-6xl font-black text-center mb-4 lightning-text">REVOLUTIONARY PRODUCTS</h2>
-            <p class="text-2xl text-center mb-16 text-gray-300">Not just tools - complete business operating systems</p>
-            
-            <div class="grid md:grid-cols-2 gap-12">
-                <!-- Agent Command Center -->
-                <div class="glow-card rounded-xl p-10">
-                    <div class="text-5xl mb-6">🎛️</div>
-                    <h3 class="text-3xl font-bold mb-6">Agent Command Center</h3>
-                    <p class="text-xl text-gray-300 mb-8">
-                        Mission control for your AI army. Deploy, monitor, and coordinate 
-                        multiple agents across different tasks. Real-time dashboard with 
-                        performance metrics and autonomous decision-making capabilities.
-                    </p>
-                    <div class="grid md:grid-cols-2 gap-4 mb-8">
-                        <div class="bg-gray-800 rounded-lg p-4">
-                            <div class="text-2xl font-bold text-yellow-400">Real-time Control</div>
-                            <div class="text-gray-300">Live agent monitoring & task assignment</div>
-                        </div>
-                        <div class="bg-gray-800 rounded-lg p-4">
-                            <div class="text-2xl font-bold text-blue-400">Smart Coordination</div>
-                            <div class="text-gray-300">Agents work together autonomously</div>
-                        </div>
-                        <div class="bg-gray-800 rounded-lg p-4">
-                            <div class="text-2xl font-bold text-green-400">Performance Analytics</div>
-                            <div class="text-gray-300">Deep insights & optimization</div>
-                        </div>
-                        <div class="bg-gray-800 rounded-lg p-4">
-                            <div class="text-2xl font-bold text-purple-400">Scaling Engine</div>
-                            <div class="text-gray-300">Deploy thousands of agents</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Global Market Domination Suite -->
-                <div class="glow-card rounded-xl p-10">
-                    <div class="text-5xl mb-6">🌍</div>
-                    <h3 class="text-3xl font-bold mb-6">Global Market Domination Suite</h3>
-                    <p class="text-xl text-gray-300 mb-8">
-                        Complete market intelligence platform. Monitor trends, consumer 
-                        behavior, and opportunities across 50+ countries. Predict market 
-                        movements before they happen.
-                    </p>
-                    <div class="grid md:grid-cols-2 gap-4 mb-8">
-                        <div class="bg-gray-800 rounded-lg p-4">
-                            <div class="text-2xl font-bold text-yellow-400">Trend Prediction</div>
-                            <div class="text-gray-300">AI-powered market forecasting</div>
-                        </div>
-                        <div class="bg-gray-800 rounded-lg p-4">
-                            <div class="text-2xl font-bold text-blue-400">Cultural Intelligence</div>
-                            <div class="text-gray-300">Deep cultural context analysis</div>
-                        </div>
-                        <div class="bg-gray-800 rounded-lg p-4">
-                            <div class="text-2xl font-bold text-green-400">Sentiment Tracking</div>
-                            <div class="text-gray-300">Real-time global sentiment</div>
-                        </div>
-                        <div class="bg-gray-800 rounded-lg p-4">
-                            <div class="text-2xl font-bold text-purple-400">Opportunity Alerts</div>
-                            <div class="text-gray-300">Instant market opportunities</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="py-20 bg-gray-900">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-6xl font-black text-center mb-4 lightning-text">PRICING THAT DESTROYS COMPETITION</h2>
-            <p class="text-2xl text-center mb-16 text-gray-300">Enterprise power at startup prices</p>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Starter -->
-                <div class="glow-card rounded-xl p-8 border-2 border-gray-700">
-                    <h3 class="text-2xl font-bold mb-4">STARTER</h3>
-                    <div class="text-5xl font-black mb-6">$47<span class="text-lg font-normal">/month</span></div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> 3 AI Agents</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> 10,000 Actions/month</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Browser Automation</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Basic Lead Generation</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> 5 Country Monitoring</li>
-                    </ul>
-                    <button @click="openContactForm('STARTER')" 
-                            class="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 px-6 py-3 rounded-lg font-bold transition">
-                        START FREE TRIAL
-                    </button>
-                </div>
-
-                <!-- Professional (Featured) -->
-                <div class="glow-card rounded-xl p-8 border-4 border-yellow-500 relative transform scale-105">
-                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                        <span class="bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-4 py-1 rounded-full text-sm font-bold">
-                            🔥 MOST POPULAR
-                        </span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4 lightning-text">PROFESSIONAL</h3>
-                    <div class="text-5xl font-black mb-6">$147<span class="text-lg font-normal">/month</span></div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> 10 AI Agents</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> 100,000 Actions/month</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> All Agent Types</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Advanced Automation</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> 25 Country Monitoring</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Dropshipping Suite</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Priority Support</li>
-                    </ul>
-                    <button @click="openContactForm('PROFESSIONAL')" 
-                            class="w-full bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 px-6 py-3 rounded-lg font-bold text-black transition">
-                        START FREE TRIAL
-                    </button>
-                </div>
-
-                <!-- Enterprise -->
-                <div class="glow-card rounded-xl p-8 border-2 border-purple-600">
-                    <h3 class="text-2xl font-bold mb-4">ENTERPRISE</h3>
-                    <div class="text-5xl font-black mb-6">$497<span class="text-lg font-normal">/month</span></div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Unlimited Agents</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Unlimited Actions</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> White-label Platform</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Custom Agent Development</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> 50+ Country Monitoring</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Dedicated Support</li>
-                        <li class="flex items-center"><span class="text-green-400 mr-2">⚡</span> Custom Integrations</li>
-                    </ul>
-                    <button @click="openContactForm('ENTERPRISE')" 
-                            class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-6 py-3 rounded-lg font-bold transition">
-                        CONTACT SALES
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="py-20 gradient-bg">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-6xl font-black mb-8 text-white drop-shadow-2xl">READY TO DOMINATE?</h2>
-            <p class="text-2xl text-white/90 mb-12">
-                Join the AI revolution. Deploy your agent army and watch your competition crumble.
-            </p>
-            <button @click="openContactForm()" 
-                    class="pulse-button bg-black hover:bg-gray-900 text-white px-16 py-8 rounded-full text-3xl font-black transition-all transform hover:scale-105 shadow-2xl border-4 border-yellow-400">
-                🚀 DEPLOY AGENTS NOW
-            </button>
-            <div class="text-white/70 text-xl mt-6">7-day free trial • No credit card required • Cancel anytime</div>
-        </div>
-    </section>
-
     <!-- Contact Modal -->
     <div x-show="showContactForm" 
          x-transition
          class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4">
-        <div class="bg-gray-900 rounded-xl p-8 max-w-md w-full border-2 border-yellow-500">
+        <div class="bg-gray-900 rounded-xl p-8 max-w-2xl w-full border-2 border-yellow-500">
             <div class="flex justify-between items-center mb-6">
-                <h3 class="text-2xl font-bold lightning-text">GET STARTED TODAY</h3>
+                <h3 class="text-2xl font-bold lightning-text">🚀 LAUNCH YOUR AI AGENTS</h3>
                 <button @click="closeContactForm()" class="text-gray-400 hover:text-white text-2xl">×</button>
             </div>
             
+            <!-- Google Sign-In Button -->
+            <div class="mb-6 text-center">
+                <div id="g_id_onload"
+                     data-client_id="YOUR_GOOGLE_CLIENT_ID"
+                     data-callback="handleCredentialResponse">
+                </div>
+                <div class="g_id_signin"
+                     data-type="standard"
+                     data-shape="rectangular"
+                     data-theme="filled_black"
+                     data-text="signin_with"
+                     data-size="large"
+                     data-logo_alignment="left"
+                     data-width="100%">
+                </div>
+                <div class="text-gray-400 text-sm mt-3">Quick setup with Google Workspace</div>
+                <div class="text-gray-500 text-sm mt-2">Or fill out the form below</div>
+            </div>
+            
             <form @submit.prevent="submitContactForm()">
-                <div class="space-y-4">
+                <div class="grid md:grid-cols-2 gap-4 mb-4">
                     <div>
-                        <label class="block text-sm font-medium mb-2">Full Name</label>
+                        <label class="block text-sm font-medium mb-2">Full Name *</label>
                         <input x-model="contactForm.name" 
                                type="text" 
                                required
                                class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:border-yellow-500 focus:outline-none">
                     </div>
                     <div>
-                        <label class="block text-sm font-medium mb-2">Email Address</label>
+                        <label class="block text-sm font-medium mb-2">Email Address *</label>
                         <input x-model="contactForm.email" 
                                type="email" 
                                required
                                class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:border-yellow-500 focus:outline-none">
                     </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-4 mb-4">
                     <div>
-                        <label class="block text-sm font-medium mb-2">Company (Optional)</label>
+                        <label class="block text-sm font-medium mb-2">Company</label>
                         <input x-model="contactForm.company" 
                                type="text"
                                class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:border-yellow-500 focus:outline-none">
@@ -519,25 +205,68 @@
                             <option value="ENTERPRISE">Enterprise - $497/month</option>
                         </select>
                     </div>
-                    <div>
-                        <label class="block text-sm font-medium mb-2">What's your main goal?</label>
-                        <textarea x-model="contactForm.message" 
-                                  rows="3"
-                                  class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:border-yellow-500 focus:outline-none"
-                                  placeholder="e.g., Lead generation, dropshipping automation, market research..."></textarea>
-                    </div>
                 </div>
                 
-                <button type="submit" 
-                        :disabled="submitting"
-                        class="w-full mt-6 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 disabled:from-gray-600 disabled:to-gray-700 px-6 py-4 rounded-lg font-bold text-black transition">
-                    <span x-show="!submitting">🚀 START MY FREE TRIAL</span>
-                    <span x-show="submitting">Sending...</span>
-                </button>
+                <div class="mb-4">
+                    <label class="block text-sm font-medium mb-2">Primary Use Case</label>
+                    <select x-model="contactForm.useCase" 
+                            class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:border-yellow-500 focus:outline-none">
+                        <option value="">Select use case...</option>
+                        <option value="browser-automation">Browser Automation & Web Scraping</option>
+                        <option value="market-intelligence">Global Market Intelligence</option>
+                        <option value="dropshipping">Dropshipping Operations</option>
+                        <option value="lead-generation">Lead Generation Warfare</option>
+                        <option value="social-media">Social Media Domination</option>
+                        <option value="competitive-intelligence">Competitive Intelligence</option>
+                        <option value="other">Other / Custom Solution</option>
+                    </select>
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block text-sm font-medium mb-2">Tell us about your goals</label>
+                    <textarea x-model="contactForm.message" 
+                              rows="3"
+                              class="w-full px-4 py-3 bg-gray-800 border border-gray-600 rounded-lg text-white focus:border-yellow-500 focus:outline-none"
+                              placeholder="Describe your automation needs, target markets, growth goals..."></textarea>
+                </div>
+                
+                <!-- Schedule Call Checkbox -->
+                <div class="flex items-center mb-6">
+                    <input type="checkbox" 
+                           x-model="contactForm.scheduleCall"
+                           id="scheduleCall"
+                           class="w-4 h-4 text-yellow-500 bg-gray-800 border-gray-600 rounded focus:ring-yellow-500">
+                    <label for="scheduleCall" class="ml-2 text-sm">
+                        📅 Schedule a strategy call (Google Meet integration)
+                    </label>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-4">
+                    <button type="button" 
+                            @click="scheduleGoogleMeet()"
+                            class="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 px-6 py-4 rounded-lg font-bold transition">
+                        📅 Schedule Google Meet
+                    </button>
+                    
+                    <button type="submit" 
+                            :disabled="submitting"
+                            class="w-full bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 disabled:from-gray-600 disabled:to-gray-700 px-6 py-4 rounded-lg font-bold text-black transition">
+                        <span x-show="!submitting">🚀 START FREE TRIAL</span>
+                        <span x-show="submitting">Processing...</span>
+                    </button>
+                </div>
             </form>
+            
+            <div class="mt-6 text-center text-sm text-gray-400">
+                <p>✅ 7-day free trial • ✅ No credit card required • ✅ Cancel anytime</p>
+                <p class="mt-2">Questions? Email: <a href="mailto:contact@supermega.dev" class="text-yellow-400">contact@supermega.dev</a></p>
+            </div>
         </div>
     </div>
 
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://accounts.google.com/gsi/client"></script>
+    
     <script>
         function superMegaApp() {
             return {
@@ -548,7 +277,9 @@
                     email: '',
                     company: '',
                     plan: '',
-                    message: ''
+                    useCase: '',
+                    message: '',
+                    scheduleCall: false
                 },
 
                 openContactForm(plan = '') {
@@ -567,39 +298,136 @@
                         email: '',
                         company: '',
                         plan: '',
-                        message: ''
+                        useCase: '',
+                        message: '',
+                        scheduleCall: false
                     };
+                },
+
+                scheduleGoogleMeet() {
+                    // Open Google Calendar scheduling
+                    const calendarUrl = 'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUpBREF8YWRieHZOfGRlZmF1bHR8ZjEwNzA5YTU2NzU4MGQwNTNkYWJhMWI4OGE1ZTYwYmU';
+                    window.open(calendarUrl, '_blank');
                 },
 
                 async submitContactForm() {
                     this.submitting = true;
                     
-                    // Simulate form submission
                     try {
-                        // In real implementation, this would send to your backend
-                        const formData = {
-                            ...this.contactForm,
-                            timestamp: new Date().toISOString(),
-                            source: 'supermega.dev'
-                        };
+                        // Send to contact API
+                        const response = await fetch('/api/contact', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                ...this.contactForm,
+                                timestamp: new Date().toISOString(),
+                                source: 'supermega.dev'
+                            })
+                        });
                         
-                        console.log('Form submitted:', formData);
-                        
-                        // Simulate API call
-                        await new Promise(resolve => setTimeout(resolve, 2000));
-                        
-                        alert('🎉 Success! We\'ll contact you within 24 hours to set up your AI agent army!');
-                        this.closeContactForm();
+                        if (response.ok) {
+                            alert('🎉 Success! Check your email for next steps. We\'ll contact you within 24 hours!');
+                            this.closeContactForm();
+                        } else {
+                            throw new Error('Network error');
+                        }
                         
                     } catch (error) {
                         console.error('Submission error:', error);
-                        alert('Something went wrong. Please try again or email us directly at hello@supermega.dev');
+                        // Fallback to mailto for now
+                        const subject = `Super Mega AI - ${this.contactForm.plan || 'General'} Inquiry`;
+                        const body = `Name: ${this.contactForm.name}\nEmail: ${this.contactForm.email}\nCompany: ${this.contactForm.company}\nPlan: ${this.contactForm.plan}\nUse Case: ${this.contactForm.useCase}\nMessage: ${this.contactForm.message}`;
+                        const mailtoLink = `mailto:contact@supermega.dev?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                        window.location.href = mailtoLink;
+                        
+                        alert('📧 Opening email client... We\'ll respond within 24 hours!');
+                        this.closeContactForm();
                     } finally {
                         this.submitting = false;
                     }
                 }
             }
         }
+
+        // Google Sign-In callback
+        function handleCredentialResponse(response) {
+            // Decode JWT and populate form
+            const userData = parseJwt(response.credential);
+            
+            // Access Alpine.js data
+            const app = document.querySelector('[x-data]').__x.$data;
+            if (app && app.contactForm) {
+                app.contactForm.name = userData.name || '';
+                app.contactForm.email = userData.email || '';
+            }
+        }
+        
+        function parseJwt(token) {
+            const base64Url = token.split('.')[1];
+            const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+            const jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+            }).join(''));
+            return JSON.parse(jsonPayload);
+        }
     </script>
+
+    <!-- Reduced page for faster loading -->
+    <section class="py-20 bg-gray-900 text-center">
+        <h2 class="text-4xl font-bold lightning-text mb-8">Ready to Deploy Your AI Army?</h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto text-gray-300">
+            Join forward-thinking businesses using Super Mega AI to automate operations, 
+            dominate markets, and scale without limits.
+        </p>
+        <button @click="openContactForm()" 
+                class="bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 px-12 py-6 rounded-full text-xl font-bold text-black transition-all transform hover:scale-105">
+            🚀 Get Started Now
+        </button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-black border-t border-gray-800">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <div class="mb-6">
+                <img src="https://raw.githubusercontent.com/swanhtet01/swanhtet01.github.io/main/super_mega_logo.png" 
+                     alt="Super Mega AI" 
+                     class="h-12 w-auto mx-auto mb-4">
+                <div class="text-2xl font-bold lightning-text">SUPER MEGA AI</div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="font-bold mb-4">Platform</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <a href="contact.html" class="block hover:text-yellow-400">Contact</a>
+                        <a href="https://swanhtet01.github.io" target="_blank" class="block hover:text-yellow-400">GitHub</a>
+                        <a href="#" class="block hover:text-yellow-400">Documentation</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">AI Agents</h4>
+                    <div class="space-y-2 text-gray-300 text-sm">
+                        <div>Browser Automation</div>
+                        <div>Market Intelligence</div>
+                        <div>Lead Generation</div>
+                        <div>Social Media</div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <div class="space-y-2 text-gray-300 text-sm">
+                        <div>contact@supermega.dev</div>
+                        <div>24/7 AI Support</div>
+                        <div>Response: 2.3 hours</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-gray-500 text-sm">
+                © 2025 Super Mega AI. Revolutionizing business with autonomous AI agents.
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
